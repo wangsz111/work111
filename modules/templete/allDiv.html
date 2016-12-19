@@ -1,0 +1,23 @@
+<script type="text/html" id="allDiv1">
+	<%for(var i=0;i< data.act_info[5].act_rows.length ;i++){%>
+		<div id=<%=data.act_info[5].act_rows[i].activity.id %> class="copy">
+			<p><b><span></span><%=data.act_info[5].act_rows[i].category_detail.name %></b><span>更多 ></span></p>
+			<div id="fruit_top" class="copy_top">
+				<img src=<%=data.act_info[5].act_rows[i].activity.img%> >
+			</div>
+			<div id=<%=data.act_info[5].act_rows[i].category_detail.category_id %> class="copy_btm">
+				<%for(var n=0;n< data.act_info[5].act_rows[i].category_detail.goods.length;n++){%>
+					<dl>
+						<dt><img src=<%=data.act_info[5].act_rows[i].category_detail.goods[n].img%>></dt>
+						<dd><%=data.act_info[5].act_rows[i].category_detail.goods[n].keywords %></dd>
+						<dd><span>精选</span></dd>
+						<dd><%=data.act_info[5].act_rows[i].category_detail.goods[n].specifics %></dd>
+						<dd><span><%=data.act_info[5].act_rows[i].category_detail.goods[n].partner_price %></span> <span><%=data.act_info[5].act_rows[i].category_detail.goods[n].market_price %></span></dd>
+						<dd id=<%=data.act_info[5].act_rows[i].category_detail.goods[n].id %> class="dd_id"><img src="img/a26.jpg"></dd>
+					</dl>
+				<%}%>
+			</div>
+		</div>
+	<%}%>
+
+</script>

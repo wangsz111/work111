@@ -1,0 +1,115 @@
+body {
+  font-size: 16px;
+  background-color: #efefef;
+}
+#integral_head {
+  width: 100%;
+  height: 0.58rem;
+  background-color: #f9fafd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: 0.16rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+#integral_head p {
+  width: 95%;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#integral_head p img {
+  display: inline-block;
+  width: 6.5%;
+  vertical-align: middle;
+  float: left;
+  margin: 0.15rem 35% 0 0;
+}
+#integral_show {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0.58rem 0 0.12rem 0;
+  padding: 0.1px;
+}
+#integral_show #integral_circle {
+  height: 120px;
+  width: 120px;
+  border: 20px solid #EF592A;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0.1rem auto;
+}
+#integral_show #integral_circle div {
+  height: 100px;
+  width: 100px;
+  border: 10px solid #E13600;
+  border-radius: 50%;
+}
+#integral_show #integral_circle div p {
+  display: inline-block;
+  color: #999999;
+  margin: 0.3rem 0 0 0 ;
+}
+#integral_show #integral_circle div p span {
+  display: inline-block;
+  font-size: 0.22rem;
+  color: #E64F1A;
+}
+#integral_show #integral_figure {
+  width: 100%;
+  clear: both;
+  font-size: 0;
+}
+#integral_show #integral_figure figure {
+  width: 33.33%;
+  display: inline-block;
+  height: 0.8rem;
+  color: #999999;
+  font-size: 0.14rem;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+#integral_show #integral_figure figure img {
+  width: 22%;
+  margin: 0.14rem auto 0.1rem auto;
+}
+#integral_show #integral_figure figure:nth-of-type(2) {
+  box-sizing: border-box;
+  border-right: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+}
+#integral_conversion {
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 0;
+}
+#integral_conversion figure {
+  width: 50%;
+  display: inline-block;
+  height: 1.76rem;
+  color: #999999;
+  font-size: 0.14rem;
+  border-top: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-right: 1px solid #e0e0e0;
+}
+#integral_conversion figure img {
+  width: 60%;
+  margin: 0.26rem auto;
+}
+#integral_conversion figure:nth-of-type(even) {
+  border-right: 1px solid #fff;
+}
+#integral_conversion figure p {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-indent: 0.1rem;
+  color: #333333;
+}
+#integral_conversion figure p:last-of-type {
+  color: #e64f1a;
+}

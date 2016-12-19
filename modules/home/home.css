@@ -1,0 +1,270 @@
+#index_head {
+  width: 100%;
+  height: 0.54rem;
+  background-color: #ffd700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+#index_head p {
+  width: 60%;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  font-size: 0.16rem;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#index_head p img {
+  display: inline-block;
+  width: 5%;
+  vertical-align: middle;
+}
+#index_head span {
+  display: inline-block;
+  height: 0.54rem;
+  width: 0.4rem;
+  font-size: 0.12rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#index_head span img {
+  width: 0.24rem;
+  vertical-align: bottom;
+  margin: 0.06rem 0 0.05rem 0.05rem;
+}
+#index_banner {
+  width: 100%;
+}
+#index_banner img {
+  margin: 0.54rem 0 0.1rem 0;
+  width: 100%;
+}
+#index_nav1 {
+  width: 100%;
+  background-color: #fff;
+}
+#index_nav1 div {
+  width: 95%;
+  margin: 0 auto 0.1rem auto;
+  font-size: 0;
+}
+#index_nav1 div figure {
+  width: 24.5%;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.14rem;
+  margin: 0.13rem 0 0.15rem 0;
+}
+#index_nav1 div figure img {
+  width: 100%;
+}
+#index_myimg {
+  width: 100%;
+  font-size: 0;
+  margin: 0 0 0.1rem 0;
+}
+#index_myimg img {
+  display: inline-block;
+  width: 33.33%;
+  box-sizing: border-box;
+  border-right: 1px solid #EFEFEF;
+}
+#index_myimg img:last-of-type {
+  border-right: 1px solid #fff;
+}
+#index_store {
+  width: 100%;
+  background-color: #fff;
+  font-size: 0;
+  margin: 0 0 0.1rem 0;
+}
+#index_store .index_store_top {
+  width: 100%;
+}
+#index_store .index_store_top img {
+  width: 100%;
+}
+#index_store .index_store_ul {
+  width: 95%;
+  margin: 0 auto;
+}
+#index_store .index_store_ul li {
+  display: inline-block;
+  width: 49%;
+}
+#index_store .index_store_ul li img {
+  width: 100%;
+  display: inline-block;
+}
+#index_store .index_store_ul li:first-of-type {
+  margin: 0 2% 0 0 ;
+}
+#index_store figure {
+  width: 25%;
+  display: inline-block;
+  font-size: 0.14rem;
+  text-align: center;
+  margin: 0.1rem 0 0.2rem 0;
+}
+#index_store figure img {
+  width: 100%;
+}
+#index_store #index_store_tul {
+  width: 100%;
+}
+#index_store #index_store_tul li {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  border-top: 1px solid #e1dce1;
+  border-right: 1px solid #e1dce1;
+}
+#index_store #index_store_tul li img {
+  width: 100%;
+}
+#index_store #index_store_tul li:nth-of-type(even) {
+  border-right: 1px solid #fff;
+}
+#allDiv .copy {
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 0;
+  margin: 0 0 0.1rem 0;
+}
+#allDiv .copy > p {
+  width: 94%;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  margin: 0 auto;
+}
+#allDiv .copy > p b {
+  color: #f78631;
+  font-size: 0.16rem;
+}
+#allDiv .copy > p b span {
+  display: inline-block;
+  width: 2.5%;
+  height: 0.18rem;
+  background-color: #f78631;
+  float: left;
+  vertical-align: top;
+  margin: 0.14rem 3% 0 0 ;
+}
+#allDiv .copy > p > span {
+  float: right;
+  display: inline-block;
+  font-size: 0.14rem;
+  color: #929092;
+}
+#allDiv .copy .copy_top {
+  width: 94%;
+  margin: 0 auto;
+}
+#allDiv .copy .copy_top img {
+  width: 100%;
+  margin: 0 0 0.1rem 0;
+}
+#allDiv .copy .copy_btm dl {
+  width: 33.33%;
+  display: inline-block;
+  font-size: 0.14rem;
+  box-sizing: border-box;
+  margin: 0 0 0.1rem 0;
+  position: relative;
+}
+#allDiv .copy .copy_btm dl:nth-of-type(2) {
+  border-left: 1px solid #e1dce1;
+  border-right: 1px solid #e1dce1;
+}
+#allDiv .copy .copy_btm dl dt img {
+  width: 100%;
+}
+#allDiv .copy .copy_btm dl dd {
+  width: 90%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#allDiv .copy .copy_btm dl dd:nth-of-type(2) {
+  height: 0.24rem;
+  line-height: 0.24rem;
+}
+#allDiv .copy .copy_btm dl dd:nth-of-type(2) span {
+  display: inline-block;
+  height: 0.16rem;
+  line-height: 0.16rem;
+  width: 28%;
+  text-align: center;
+  font-size: 0.12rem;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 3px ;
+}
+#allDiv .copy .copy_btm dl dd:nth-of-type(3) {
+  height: 0.24rem;
+  line-height: 0.24rem;
+  color: #949294;
+}
+#allDiv .copy .copy_btm dl dd:nth-of-type(4) {
+  height: 0.24rem;
+  line-height: 0.24rem;
+  color: #949294;
+}
+#allDiv .copy .copy_btm dl dd:nth-of-type(4) span:first-of-type {
+  color: #ff3a02;
+}
+#allDiv .copy .copy_btm dl dd:nth-of-type(4) span:last-of-type {
+  text-decoration: line-through;
+}
+#allDiv .copy .copy_btm dl dd:last-of-type {
+  width: 13%;
+  background-color: #ffffff;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  padding: 6%;
+  border-radius: 50%;
+  border: 1px solid #e3dde0;
+}
+#allDiv .copy .copy_btm dl dd:last-of-type img {
+  width: 100%;
+}
+#allDiv > div:nth-of-type(2) > p b {
+  color: #21b2ff;
+}
+#allDiv > div:nth-of-type(2) > p b span {
+  background-color: #21b2ff;
+}
+#allDiv > div:nth-of-type(3) > p b {
+  color: #7b4d00;
+}
+#allDiv > div:nth-of-type(3) > p b span {
+  background-color: #7b4d00;
+}
+#allDiv > div:nth-of-type(4) > p b {
+  color: #ff3018;
+}
+#allDiv > div:nth-of-type(4) > p b span {
+  background-color: #ff3018;
+}
+#allDiv > div:nth-of-type(5) > p b {
+  color: #ef0010;
+}
+#allDiv > div:nth-of-type(5) > p b span {
+  background-color: #ef0010;
+}
+#allDiv > div:last-of-type {
+  margin: 0 0 0.7rem 0;
+}
+#allDiv > div:last-of-type > p b {
+  color: #18b2a5;
+}
+#allDiv > div:last-of-type > p b span {
+  background-color: #18b2a5;
+}

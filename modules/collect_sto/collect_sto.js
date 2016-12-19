@@ -1,0 +1,11 @@
+define(["text!./collect_sto.html","css!./collect_sto.css"],function(collect_stoPage){
+	return{
+		init:function(){
+			if($(".collect_sto").children().size()>0){
+				$(".collect_sto").show().siblings('div').hide().parent().siblings("#index_footer").hide();
+			}else{
+				$(".collect_sto").html(collect_stoPage).show().siblings("div").hide().parent().siblings("#index_footer").hide();
+			}
+		}
+	}
+});

@@ -1,0 +1,303 @@
+body {
+  font-size: 0.16rem;
+  background-color: #efefef;
+}
+#seckill_head {
+  width: 100%;
+  height: 0.58rem;
+  background-color: #f9fafd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: 0.16rem;
+}
+#seckill_head p {
+  width: 95%;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#seckill_head p > img {
+  display: inline-block;
+  width: 6.5%;
+  vertical-align: middle;
+  float: right;
+  margin: 0.15rem 0 0 0;
+}
+#seckill_head p > a {
+  display: inline-block;
+  width: 6.5%;
+  vertical-align: middle;
+  float: left;
+  margin: 0.15rem 0 0 0;
+}
+#seckill_head p > a > img {
+  float: left;
+  display: inline-block;
+}
+#seckill_active {
+  width: 100%;
+}
+#seckill_active #seckill_rush {
+  width: 100%;
+  margin: 0.58rem 0 0 0 ;
+}
+#seckill_active #seckill_rush > img {
+  width: 100%;
+}
+#seckill_active #seckill_rush #seckill_rush_div {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div {
+  width: 25%;
+  height: 0.84rem;
+  background-color: #272c2a;
+  font-size: 0.15rem;
+  color: #CCCCCC;
+  box-sizing: border-box;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div:last-of-type {
+  border-right: 1px solid #efefef;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div > p {
+  height: 0.24rem;
+  line-height: 0.24rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div > p:first-of-type {
+  font-size: 0.18rem;
+  margin: 0.08rem 0 0 0;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div > p:last-of-type {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin: 0 0 0.06rem 44%;
+  background: url("../img/a66.png") no-repeat right bottom;
+  background-size: cover;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div div {
+  position: absolute;
+  top: 0.84rem;
+  left: 0;
+  color: #000;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div div p {
+  text-indent: 20px;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div div p:first-of-type {
+  font-size: 0.12rem;
+}
+#seckill_active #seckill_rush #seckill_rush_div > div div p:last-of-type {
+  color: #62581E;
+}
+#seckill_active #seckill_rush #seckill_rush_time {
+  height: 40px;
+  line-height: 40px;
+}
+#seckill_active #seckill_rush #seckill_rush_time img {
+  display: inline-block;
+}
+#seckill_active #seckill_rush #seckill_rush_time span {
+  display: inline-block;
+  float: right;
+  margin: 5px 10px 0 0;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  background-color: #272c2a;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 14px;
+}
+#seckill_active #seckill_rush figure {
+  width: 100%;
+  height: 1.8rem;
+  background-color: #ffffff;
+  clear: both;
+  margin: 0 0 5px 0 ;
+  box-sizing: border-box;
+  border-bottom: 1px dashed #F2F2F2;
+  border-top: 1px solid #F2F2F2;
+}
+#seckill_active #seckill_rush figure img {
+  width: 47%;
+  float: left;
+  border-right: 1px solid #F2F2F2;
+}
+#seckill_active #seckill_rush figure figcaption {
+  float: right;
+  width: 50%;
+}
+#seckill_active #seckill_rush figure figcaption p {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#seckill_active #seckill_rush figure figcaption p:first-of-type {
+  margin: 0.2rem 0 0 0;
+}
+#seckill_active #seckill_rush figure figcaption p:nth-of-type(2) {
+  color: #333333;
+}
+#seckill_active #seckill_rush figure figcaption p:nth-of-type(3) {
+  color: #ff602c;
+}
+#seckill_active #seckill_rush figure figcaption p:nth-of-type(3) b {
+  font-size: 0.28rem;
+}
+#seckill_active #seckill_rush figure figcaption p:nth-of-type(3) span {
+  color: #979697;
+}
+#seckill_active #seckill_rush figure figcaption p:last-of-type {
+  width: 100%;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  margin: 0.14rem 0 0 0;
+}
+#seckill_active #seckill_rush figure figcaption p:last-of-type span {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #aaaaaa;
+  color: #fff;
+  border-radius: 0.18rem;
+}
+#seckill_hot {
+  width: 100%;
+}
+#seckill_hot > p {
+  width: 100%;
+}
+#seckill_hot > p:first-of-type {
+  height: 0.3rem;
+  margin: 0.1rem 0 0 0;
+}
+#seckill_hot > p:first-of-type > span {
+  display: block;
+  width: 40%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#seckill_hot > p:first-of-type > span > span {
+  display: inline-block;
+  width: 4%;
+  height: 0.2rem;
+  background-color: #fdd000;
+  margin: 0 5% 0 0 ;
+  vertical-align: middle;
+}
+#seckill_hot > p:last-of-type {
+  height: 0.1rem;
+  margin: 0 0 0.12rem 0;
+  background: url("../img/a72.jpg") repeat-x center left;
+}
+#seckill_hot #seckill_hot_div {
+  width: 94%;
+  margin: 0 auto;
+}
+#seckill_hot #seckill_hot_div figure {
+  display: inline-block;
+  width: 49%;
+  background-color: #ffffff;
+  margin: 0 0 0.1rem 0;
+  font-size: 0.14rem;
+  position: relative;
+}
+#seckill_hot #seckill_hot_div figure:nth-of-type(odd) {
+  float: left;
+}
+#seckill_hot #seckill_hot_div figure:nth-of-type(even) {
+  float: right;
+}
+#seckill_hot #seckill_hot_div figure > img {
+  width: 100%;
+  border-bottom: 1px dashed #e7e7e7;
+}
+#seckill_hot #seckill_hot_div figure figcaption {
+  width: 90%;
+  margin: 0 auto;
+}
+#seckill_hot #seckill_hot_div figure figcaption p {
+  width: 100%;
+}
+#seckill_hot #seckill_hot_div figure figcaption p span:first-of-type {
+  color: #fc1400;
+}
+#seckill_hot #seckill_hot_div figure figcaption p span:last-of-type {
+  color: #929292;
+  text-decoration: line-through;
+}
+#seckill_hot #seckill_hot_div figure figcaption img {
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+  padding: 5%;
+  border: 1px solid #a0a0a0;
+  border-radius: 50%;
+}
+#seckill_rule {
+  width: 100%;
+  clear: both;
+  padding: 0.1rem  0 40px 0;
+}
+#seckill_rule > p {
+  width: 100%;
+}
+#seckill_rule > p:first-of-type {
+  height: 0.3rem;
+  font-size: 0.14rem;
+  margin: 0.1rem 0 0 0;
+}
+#seckill_rule > p:first-of-type > span {
+  display: block;
+  width: 40%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#seckill_rule > p:first-of-type > span > span {
+  display: inline-block;
+  width: 4%;
+  height: 0.18rem;
+  background-color: #fdd000;
+  margin: 0 5% 0 0 ;
+  vertical-align: middle;
+}
+#seckill_rule > p:last-of-type {
+  height: 0.1rem;
+  margin: 0 0 0.12rem 0;
+  background: url("../img/a72.jpg") repeat-x center left;
+}
+#seckill_rule ol {
+  width: 70%;
+  color: #595757;
+  margin: 0 auto;
+  font-size: 0.12rem;
+  list-style: decimal;
+}
+#seckill_car {
+  width: 20%;
+  position: fixed;
+  bottom: 8px;
+  right: 5px;
+}
+#seckill_car img {
+  width: 100%;
+}

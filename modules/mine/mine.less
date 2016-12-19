@@ -1,0 +1,232 @@
+
+body{
+	font-size: 16px;
+	background-color: #efefef;
+	height: 5.7rem;
+}
+
+.h(@v){
+	height: @v;
+}
+.lh(@v){
+	line-height: @v;
+}
+.w(@v){
+	width: @v;
+}
+.f(@v){
+	float: @v;
+}
+.c(@v){
+	background-color: @v;
+}
+.d(){
+	display: inline-block;
+}
+
+// =================================mine_head======================================
+#mine_head{
+	.h(1.62rem);
+	.w(100%);
+	.c(#ffd600);
+	position: fixed;
+	top: 0;
+	left: 0;
+	figure{
+		.w(100%);
+		.h(1.2rem);
+		>img{
+			.w(19%);
+			margin: 0.21rem 5%;
+			.f(left);
+		}
+		figcaption{
+			.f(left);
+			.w(50%);
+			margin: 0.23rem 0 0 0;
+			p{
+				.w(50%);
+				.h(0.3rem);
+				.lh(0.3rem);
+				font-size: 0.18rem;
+				color: #fff;
+				&:last-of-type{
+					img{
+						.h(0.35rem);
+						.f(left);
+						.d();
+						position: absolute;
+						top: 0.545rem;
+						left: 30.5%;
+					}
+					b{
+						.d();
+						.w(100%);
+						.h(0.22rem);
+						.lh(0.22rem);
+						.c(#fff5bf);
+						color: #e64f1a;
+						text-align: center;
+						font-size: 0.12rem;
+						border-radius: 0.12rem;
+						margin: 0 0 0 17%;
+					}
+				}
+			}
+			>img{
+				.w(3.5%);
+				position: absolute;
+				top: 0.5rem;
+				right: 7%;
+			}
+		}
+	}
+	ul{
+		.w(100%);
+		.h(0.42rem);
+		.lh(0.42rem);
+		.c(#f3c800);
+		clear: both;
+		li{
+			.f(left);
+			.w(49%);
+			.h(0.26rem);
+			.lh(0.26rem);
+			margin: 0.06rem 0 0 0 ;
+			color: #fff;
+			text-align: center;
+			font-size: 0.14rem;
+			&:first-of-type{
+				border-right: 1px solid #fff;
+			}
+			img{
+				.d();
+				.w(12%);
+				vertical-align: middle;
+				margin: 0 10% 0 0;
+			}
+			a{
+				color: #fff;
+			}
+		}
+	}
+}
+// -----------------------------------------------mine_indent---------------------
+#mine_indent{
+	.c(#efefef);
+	margin: 1.62rem 0 0 0;
+	padding:0.1px;
+	font-size: 0;
+	>p{
+		.w(90%);
+		padding: 0 5% 0 5% ;
+		.c(#fff);
+		.h(0.58rem);
+		.lh(0.58rem);
+		font-size: 0.16rem;
+		margin-top: 0.1rem;
+		border-bottom: 1px solid #e0e0e0;
+		span{
+			&:last-of-type{
+				.f(right);
+				.w(35%);
+				color: #999999;
+				img{
+					.w(5%);
+					.d();
+				}
+			}
+		}
+	}
+	figure{
+		.w(25%);
+		font-size: 0.14rem;
+		.d();
+		.h(0.84rem);
+		.c(#fff);
+		text-align: center;
+		margin: 0 0 0.12rem 0;
+		img{
+			.w(32%);
+			margin: 0.2rem auto 0.08rem auto;
+		}
+	}
+}
+
+// =======================================mine_nav====================
+
+#mine_nav{
+	.w(100%);
+	font-size: 0;
+	.c(#fff);
+	figure{
+		.h(1.2rem);
+		.d();
+		.w(25%);
+		margin: 1px 0 0 0;
+		border-bottom:1px solid #efefef;
+		font-size: 0.14rem;
+		text-align: center;
+		&:last-of-type{
+			border-bottom:none;
+		}
+		img{
+			.w(42%);
+			margin: 0.35rem auto 0.10rem auto ;
+		}
+	}
+}
+
+// -------------------------------------------------mine_quit----------------
+#mine_quit{
+	.w(100%);
+	.h(0.55rem);
+	.lh(0.55rem);
+	.c(#fff);
+	color: #333;
+	font-size: 0.14rem;
+	text-align: center;
+	margin: 0.35rem 0 0 0;
+}
+// -------------------------------------mine_footer-----------------------------------------------
+#mine_footer{
+	.w(100%);
+	.c(rgba(247,247,247,0.95));
+	font-size: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	color: #777;
+	z-index: 9999;
+	figure{
+		.d();
+		.w(25%);
+		font-size: 0.14rem;
+		text-align: center;
+		position: relative;
+		img{
+			.w(23%);
+			margin: 0.1rem auto 0.05rem auto;
+		}
+		a{
+			position: absolute;
+			.w(100%);
+			.h(100%);
+			top: 0;
+			left: 0;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+html, body, ul, li, ol, dl, dd, dt, p, figure,figcaption,h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+body { color:#333 ;background:#fff;font:16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;}
+//body { color:#333; font:12px/20px "Microsoft YaHei","微软雅黑","Arial Narrow",HELVETICA; background:#fff;}
+
+a { color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400;}
+
+html{
+	font-size: 100px;
+}
+
+body{
+	font-size: 16px;
+	background-color: #efefef;
+}
+
+.h(@v){
+	height: @v;
+}
+.lh(@v){
+	line-height: @v;
+}
+.w(@v){
+	width: @v;
+}
+.f(@v){
+	float: @v;
+}
+.c(@v){
+	background-color: @v;
+}
+.d(){
+	display: inline-block;
+}
+// -------------------------------------index_footer-----------------------------------------------
+#index_footer{
+	.w(100%);
+	.c(rgba(247,247,247,0.95));
+	font-size: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+	color: #888;
+	figure{
+		.d();
+		.w(25%);
+		font-size: 0.14rem;
+		text-align: center;
+		position: relative;
+		img{
+			.w(23%);
+			margin: 0.1rem auto 0.05rem auto;
+		}
+		a{
+			color: #888;
+		}
+	}
+}
+
+
+
+

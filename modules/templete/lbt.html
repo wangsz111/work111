@@ -1,0 +1,12 @@
+<script type="text/html" id="lbt">
+	<div class="swiper-container"> 
+		<div class="swiper-wrapper">
+			<%for(var i=0;i< data.act_info[0].act_rows.length;i++){%>
+				<div class="swiper-slide">
+					<img src= <%=data.act_info[0].act_rows[i].activity.img%> >
+				</div>
+			<%}%>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</script>

@@ -1,0 +1,336 @@
+.h(@v){
+	height: @v;
+}
+.lh(@v){
+	line-height: @v;
+}
+.w(@v){
+	width: @v;
+}
+.f(@v){
+	float: @v;
+}
+.c(@v){
+	background-color: @v;
+}
+.d(){
+	display: inline-block;
+}
+// =================================================index_head===============================
+#index_head{
+	.w(100%);
+	.h(0.54rem);
+	.c(#ffd700);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	p{
+		.w(60%);
+		.h(0.54rem);
+		.lh(0.54rem);
+		font-size: 0.16rem;
+		text-align: center;
+		margin: 0 auto;
+		white-space: nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		img{
+			.d();
+			.w(5%);
+			vertical-align: middle;
+		}
+	}
+	span{
+		.d();
+		.h(0.54rem);
+		.w(0.4rem);
+		font-size: 0.12rem;
+		position: absolute;
+		right: 0;
+		bottom: 0; 
+		img{
+			.w(0.24rem);
+			vertical-align: bottom;
+			margin: 0.06rem 0 0.05rem 0.05rem;
+		}
+	}
+}
+//==============================================index_banner===============================
+#index_banner{
+	.w(100%);
+	img{
+		margin: 0.54rem 0 0.1rem 0;
+		.w(100%);
+	}
+}
+
+// ===============================================index_nav====================================
+#index_nav1{
+	.w(100%);	
+	background-color: #fff;
+	div{
+		.w(95%);
+		margin: 0 auto 0.1rem auto;
+		font-size: 0;
+
+		figure{
+			.w(24.5%);
+			.d();
+			text-align: center;
+			font-size: 0.14rem;
+			margin: 0.13rem 0 0.15rem 0;
+			img{
+				.w(100%);
+			}
+		}
+	}
+	
+}
+
+// -------------------------------------------index_myimg---------------------------------
+#index_myimg{
+	.w(100%);
+	font-size: 0;
+	margin: 0 0 0.1rem 0;
+	img{
+		.d();
+		.w(33.33%);
+		box-sizing: border-box;
+		border-right: 1px solid #EFEFEF;
+		&:last-of-type{
+			border-right:1px solid #fff;
+		}
+	}
+}
+// -------------------------------------------store------------------------------------
+#index_store{
+	.w(100%);
+	background-color: #fff;
+	font-size: 0;
+	margin: 0 0 0.1rem 0;
+	.index_store_top{
+		.w(100%);
+		img{
+			.w(100%);
+		}
+	}
+	.index_store_ul{
+		.w(95%);
+		margin: 0 auto;
+		li{
+			.d();
+			.w(49%);
+			
+			img{
+				.w(100%);
+				.d();
+			}
+			&:first-of-type{
+				margin: 0 2% 0 0 ;
+			}
+		}
+	}
+	figure{
+		.w(25%);
+		.d();
+		font-size: 0.14rem;
+		text-align: center;
+		margin: 0.1rem 0 0.2rem 0;
+		img{
+			.w(100%);
+		}
+	}
+	#index_store_tul{
+		.w(100%);
+		li{
+			.w(50%);
+			.d();
+			box-sizing: border-box;
+			border-top:1px solid #e1dce1;
+			border-right:1px solid #e1dce1;
+			img{
+				.w(100%);
+			}
+			&:nth-of-type(even){
+				border-right:1px solid #fff;
+			}
+		}
+	}
+}
+#allDiv{
+	// ---------------------------------------------------copy---------------------------------
+	.copy{
+		.w(100%);
+		.c(#fff);
+		font-size: 0;
+		margin: 0 0 0.1rem 0;
+		>p{
+			.w(94%);
+			.h(0.48rem);
+			.lh(0.48rem);
+			margin: 0 auto;
+			b{
+				color: #f78631;
+				font-size: 0.16rem;
+				span{
+					.d();
+					.w(2.5%);
+					.h(0.18rem);
+					.c(#f78631);
+					.f(left);
+					vertical-align: top;
+					margin: 0.14rem 3% 0 0 ;
+				}
+			}
+			>span{
+				.f(right);
+				.d();
+				font-size: 0.14rem;
+				color: #929092;
+			}
+		}
+		.copy_top{
+			.w(94%);
+			margin: 0 auto;
+			img{
+				.w(100%);
+				margin: 0 0 0.1rem 0;
+			}
+		}
+		.copy_btm{
+			dl{
+				.w(33.33%);
+				.d();
+				font-size: 0.14rem;
+				box-sizing: border-box;
+				margin: 0 0 0.1rem 0;
+				position: relative;
+				&:nth-of-type(2){
+					border-left: 1px solid #e1dce1;
+					border-right: 1px solid #e1dce1;
+				}
+				dt{
+					img{
+						.w(100%);
+					}
+				}
+				dd{
+					.w(90%);
+					margin: 0 auto;
+					white-space: nowrap;
+					overflow:hidden;
+					text-overflow:ellipsis;
+					&:nth-of-type(2){
+						.h(0.24rem);
+						.lh(0.24rem);
+						span{
+							.d();
+							.h(0.16rem);
+							.lh(0.16rem);
+							.w(28%);
+							text-align: center;
+							font-size: 0.12rem;
+							color: #ff0000;
+							border: 1px solid #ff0000;
+							border-radius: 3px ;
+						}
+					}
+					&:nth-of-type(3){
+						.h(0.24rem);
+						.lh(0.24rem);
+						color: #949294;
+					}
+					&:nth-of-type(4){
+						.h(0.24rem);
+						.lh(0.24rem);
+						color: #949294;
+						span{
+							&:first-of-type{
+								color: #ff3a02;
+							}
+							&:last-of-type{
+								text-decoration:line-through;
+							}
+						}
+					}
+					&:last-of-type{
+						.w(13%);
+						.c(#fff);
+						position: absolute;
+						right: 10%;
+						bottom: 0;
+						padding: 6%;
+						border-radius: 50%;
+						border: 1px solid #e3dde0;
+						img{
+							.w(100%);
+						}
+					}
+				}
+			}
+		}
+	}
+	>div{
+		// -----------------------------------------bread----------------------------------------
+		&:nth-of-type(2){
+			>p{
+				b{
+					color: #21b2ff;
+					span{
+						.c(#21b2ff);
+					}
+				}
+			}
+		}
+		// -----------------------------------------------braised--------------------------------------
+		&:nth-of-type(3){
+			>p{
+				b{
+					color: #7b4d00;
+					span{
+						.c(#7b4d00);
+					}
+				}
+			}
+		}
+		// --------------------------------------------drink---------------------------------------------
+		&:nth-of-type(4){
+			>p{
+				b{
+					color: #ff3018;
+					span{
+						.c(#ff3018);
+					}
+				}
+			}
+		}
+		// ----------------------------------------snacks------------------------------------------------
+		&:nth-of-type(5){
+			>p{
+				b{
+					color: #ef0010;
+					span{
+						.c(#ef0010);
+					}
+				}
+			}
+		}
+		// ----------------------------------------FastFood------------------------------------------------
+		&:last-of-type{
+			margin: 0 0 0.7rem 0;
+			>p{
+				b{
+					color: #18b2a5;
+					span{
+						.c(#18b2a5);
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+
+

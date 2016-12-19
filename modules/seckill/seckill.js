@@ -1,0 +1,11 @@
+define(["text!./seckill.html","css!./seckill.css"],function(seckillPage){
+	return{
+		init:function(){
+			if($(".seckill").children().size()>0){
+				$(".seckill").show().siblings('div').hide().parent().siblings("#index_footer").hide();
+			}else{
+				$(".seckill").html(seckillPage).show().siblings("div").hide().parent().siblings("#index_footer").hide();
+			}
+		}
+	}
+});

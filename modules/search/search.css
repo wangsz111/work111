@@ -1,0 +1,80 @@
+body {
+  background-color: #efefef;
+}
+#search_head {
+  width: 100%;
+  height: 0.54rem;
+  background-color: #f9fafd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: 0.16rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+#search_head div {
+  width: 95%;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0.18rem;
+  color: #777777;
+  text-overflow: ellipsis;
+}
+#search_head div > a {
+  display: inline-block;
+  width: 6.5%;
+  vertical-align: middle;
+  float: left;
+  margin: 0.15rem 0 0 0;
+}
+#search_head div form {
+  display: inline-block;
+  float: left;
+  width: 65%;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  margin: 0.1rem 0 0 10%;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+#search_head div form img {
+  display: inline-block;
+  width: 6%;
+  float: left;
+  margin: 0.08rem 0 0 3%;
+}
+#search_head div form input {
+  outline: none;
+  height: 0.2rem;
+  border: none;
+  background-color: #f9fafd;
+  width: 80%;
+  font-size: 0.18rem;
+}
+#search_head div span {
+  float: right;
+  margin: 0 2% 0 0;
+}
+#search_nav {
+  width: 90%;
+  margin: 0.8rem auto 0 auto ;
+  font-size: 0.14rem;
+}
+#search_nav p {
+  width: 100%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  color: #888888;
+}
+#search_nav div span {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0.1rem 5.5%;
+  border: 1px solid #e4e4e4;
+  margin: 0.07rem 1%;
+  border-radius: 0.25rem;
+}

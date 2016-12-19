@@ -1,0 +1,11 @@
+define(["text!./integral.html","css!./integral.css"],function(integralPage){
+	return{
+		init:function(){
+			if($(".integral").children().size()>0){
+				$(".integral").show().siblings('div').hide().parent().siblings("#index_footer").hide();
+			}else{
+				$(".integral").html(integralPage).show().siblings("div").hide().parent().siblings("#index_footer").hide();
+			}
+		}
+	}
+});

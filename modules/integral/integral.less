@@ -1,0 +1,141 @@
+
+body{
+	font-size: 16px;
+	background-color: #efefef;
+}
+
+.h(@v){
+	height: @v;
+}
+.lh(@v){
+	line-height: @v;
+}
+.w(@v){
+	width: @v;
+}
+.f(@v){
+	float: @v;
+}
+.c(@v){
+	background-color: @v;
+}
+.d(){
+	display: inline-block;
+}
+
+// =================================================integral_head===============================
+#integral_head{
+	.w(100%);
+	.h(0.58rem);
+	.c(#f9fafd);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	font-size: 0.16rem;
+	border-bottom: 1px solid #e0e0e0;
+	p{
+		.w(95%);
+		.h(0.58rem);
+		.lh(0.58rem);
+		margin: 0 auto;
+		white-space: nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		img{
+			.d();
+			.w(6.5%);
+			vertical-align: middle;
+			.f(left);
+			margin: 0.15rem 35% 0 0;
+		}
+	}
+}
+// --------------------------------------integral_show--------------------------------
+#integral_show{
+	.w(100%);
+	.c(#fff);
+	margin: 0.58rem 0 0.12rem 0;
+	padding: 0.1px;
+	#integral_circle{
+		.h(120px);
+		.w(120px);
+		border: 20px solid #EF592A;
+		border-radius: 50%;
+		text-align: center;
+		margin: 0.1rem auto;
+		div{
+			.h(100px);
+			.w(100px);
+			border: 10px solid #E13600;
+			// text-align: center;
+			border-radius: 50%;
+			// margin: 0.1rem auto;
+			p{
+				.d();
+				color: #999999;
+				margin: 0.3rem 0 0 0 ;
+				span{
+					.d();
+					font-size: 0.22rem;
+					color:#E64F1A;
+				}
+			}
+		}
+	}
+	#integral_figure{
+		.w(100%);
+		clear: both;
+		font-size: 0;
+		figure{
+			.w(33.33%);
+			.d();
+			.h(0.8rem);
+			color: #999999;
+			font-size: 0.14rem;
+			text-align: center;
+			border-top: 1px solid #e0e0e0;
+			img{
+				.w(22%);
+				margin: 0.14rem auto 0.1rem auto;
+			}
+			&:nth-of-type(2){
+				box-sizing: border-box;
+				border-right: 1px solid #e0e0e0;
+				border-left: 1px solid #e0e0e0;
+			}
+		}
+	}
+}
+// -----------------------------integral_conversion-----------------------
+#integral_conversion{
+	.w(100%);
+	.c(#fff);
+	font-size: 0;
+	figure{
+		.w(50%);
+		.d();
+		.h(1.76rem);
+		color: #999999;
+		font-size: 0.14rem;
+		border-top: 1px solid #e0e0e0;
+		box-sizing: border-box;
+		border-right: 1px solid #e0e0e0;
+		img{
+			.w(60%);
+			margin: 0.26rem auto;
+		}
+		&:nth-of-type(even){
+			border-right: 1px solid #fff;
+		}
+		p{
+			.h(0.3rem);
+			.lh(0.3rem);
+			text-indent: 0.1rem;
+			color: #333333;
+			&:last-of-type{
+				color: #e64f1a;
+			}
+		}
+	}
+}

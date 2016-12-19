@@ -1,0 +1,86 @@
+body {
+  font-size: 16px;
+  background-color: #efefef;
+}
+#myOrder_head {
+  width: 100%;
+  height: 0.58rem;
+  background-color: #f9fafd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: 0.16rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+#myOrder_head p {
+  width: 95%;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#myOrder_head p a {
+  display: inline-block;
+  width: 6.5%;
+  vertical-align: middle;
+  float: left;
+  margin: 0.15rem 0 0 0;
+}
+#myOrder_head p > img {
+  display: inline-block;
+  width: 6.5%;
+  vertical-align: middle;
+  float: right;
+  margin: 0.15rem 0 0 0;
+}
+#myOrder_nav {
+  height: 0.55rem;
+  line-height: 0.55rem;
+  background-color: #ffffff;
+  margin: 0.54rem 0 0 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+#myOrder_nav ul {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 0.14rem;
+}
+#myOrder_nav ul li {
+  margin: 0 1%;
+  width: 18%;
+  height: 0.53rem;
+  line-height: 0.53rem;
+  float: left;
+  text-align: center;
+  border-bottom: 2px solid #ff3800;
+}
+#myOrder_null {
+  width: 100%;
+  margin: 1rem 0 0 0;
+}
+#myOrder_null figure {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+#myOrder_null figure img {
+  width: 42%;
+  margin: 0 auto;
+}
+#myOrder_null figure p {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  margin: 0.13rem 0 ;
+  color: #999999;
+}
+#myOrder_null figure p span {
+  display: inline-block;
+  height: 0.28rem;
+  line-height: 0.28rem;
+  width: 50%;
+  border: 1px solid #e0e0e0;
+}

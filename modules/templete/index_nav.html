@@ -1,0 +1,12 @@
+<script type="text/html" id="index_nav">
+<div>
+	<%for(var i=0;i< data.act_info[1].act_rows.length;i++){%>
+		<figure id=<%=data.act_info[1].act_rows[i].activity.id%> >
+			<img src=<%=data.act_info[1].act_rows[i].activity.img%> >
+			<figcaption>
+				<p><a href=#<%=data.act_info[1].act_rows[i].activity.id %> ><%=data.act_info[1].act_rows[i].activity.name %></a></p>
+			</figcaption>
+		</figure>
+	<%}%>
+</div>
+</script>

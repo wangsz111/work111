@@ -1,0 +1,11 @@
+define(["text!./coupon.html","css!./coupon.css"],function(couponPage){
+	return{
+		init:function(){
+			if($(".coupon").children().size()>0){
+				$(".coupon").show().siblings('div').hide().parent().siblings("#index_footer").hide();
+			}else{
+				$(".coupon").html(couponPage).show().siblings("div").hide().parent().siblings("#index_footer").hide();
+			}
+		}
+	}
+});

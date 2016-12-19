@@ -1,0 +1,186 @@
+body {
+  font-size: 16px;
+  background-color: #efefef;
+  height: 5.7rem;
+}
+#mine_head {
+  height: 1.62rem;
+  width: 100%;
+  background-color: #ffd600;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#mine_head figure {
+  width: 100%;
+  height: 1.2rem;
+}
+#mine_head figure > img {
+  width: 19%;
+  margin: 0.21rem 5%;
+  float: left;
+}
+#mine_head figure figcaption {
+  float: left;
+  width: 50%;
+  margin: 0.23rem 0 0 0;
+}
+#mine_head figure figcaption p {
+  width: 50%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.18rem;
+  color: #fff;
+}
+#mine_head figure figcaption p:last-of-type img {
+  height: 0.35rem;
+  float: left;
+  display: inline-block;
+  position: absolute;
+  top: 0.545rem;
+  left: 30.5%;
+}
+#mine_head figure figcaption p:last-of-type b {
+  display: inline-block;
+  width: 100%;
+  height: 0.22rem;
+  line-height: 0.22rem;
+  background-color: #fff5bf;
+  color: #e64f1a;
+  text-align: center;
+  font-size: 0.12rem;
+  border-radius: 0.12rem;
+  margin: 0 0 0 17%;
+}
+#mine_head figure figcaption > img {
+  width: 3.5%;
+  position: absolute;
+  top: 0.5rem;
+  right: 7%;
+}
+#mine_head ul {
+  width: 100%;
+  height: 0.42rem;
+  line-height: 0.42rem;
+  background-color: #f3c800;
+  clear: both;
+}
+#mine_head ul li {
+  float: left;
+  width: 49%;
+  height: 0.26rem;
+  line-height: 0.26rem;
+  margin: 0.06rem 0 0 0 ;
+  color: #fff;
+  text-align: center;
+  font-size: 0.14rem;
+}
+#mine_head ul li:first-of-type {
+  border-right: 1px solid #fff;
+}
+#mine_head ul li img {
+  display: inline-block;
+  width: 12%;
+  vertical-align: middle;
+  margin: 0 10% 0 0;
+}
+#mine_head ul li a {
+  color: #fff;
+}
+#mine_indent {
+  background-color: #efefef;
+  margin: 1.62rem 0 0 0;
+  padding: 0.1px;
+  font-size: 0;
+}
+#mine_indent > p {
+  width: 90%;
+  padding: 0 5% 0 5% ;
+  background-color: #ffffff;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  font-size: 0.16rem;
+  margin-top: 0.1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+#mine_indent > p span:last-of-type {
+  float: right;
+  width: 35%;
+  color: #999999;
+}
+#mine_indent > p span:last-of-type img {
+  width: 5%;
+  display: inline-block;
+}
+#mine_indent figure {
+  width: 25%;
+  font-size: 0.14rem;
+  display: inline-block;
+  height: 0.84rem;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 0 0.12rem 0;
+}
+#mine_indent figure img {
+  width: 32%;
+  margin: 0.2rem auto 0.08rem auto;
+}
+#mine_nav {
+  width: 100%;
+  font-size: 0;
+  background-color: #ffffff;
+}
+#mine_nav figure {
+  height: 1.2rem;
+  display: inline-block;
+  width: 25%;
+  margin: 1px 0 0 0;
+  border-bottom: 1px solid #efefef;
+  font-size: 0.14rem;
+  text-align: center;
+}
+#mine_nav figure:last-of-type {
+  border-bottom: none;
+}
+#mine_nav figure img {
+  width: 42%;
+  margin: 0.35rem auto 0.10rem auto ;
+}
+#mine_quit {
+  width: 100%;
+  height: 0.55rem;
+  line-height: 0.55rem;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 0.14rem;
+  text-align: center;
+  margin: 0.35rem 0 0 0;
+}
+#mine_footer {
+  width: 100%;
+  background-color: rgba(247, 247, 247, 0.95);
+  font-size: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: #777;
+  z-index: 9999;
+}
+#mine_footer figure {
+  display: inline-block;
+  width: 25%;
+  font-size: 0.14rem;
+  text-align: center;
+  position: relative;
+}
+#mine_footer figure img {
+  width: 23%;
+  margin: 0.1rem auto 0.05rem auto;
+}
+#mine_footer figure a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

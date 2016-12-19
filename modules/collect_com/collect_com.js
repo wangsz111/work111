@@ -1,0 +1,11 @@
+define(["text!./collect_com.html","css!./collect_com.css"],function(collect_comPage){
+	return{
+		init:function(){
+			if($(".collect_com").children().size()>0){
+				$(".collect_com").show().siblings('div').hide().parent().siblings("#index_footer").hide();
+			}else{
+				$(".collect_com").html(collect_comPage).show().siblings("div").hide().parent().siblings("#index_footer").hide();
+			}
+		}
+	}
+});

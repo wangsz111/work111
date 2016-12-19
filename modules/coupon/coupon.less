@@ -1,0 +1,173 @@
+
+body{
+	font-size: 16px;
+	background-color: #efefef;
+}
+
+.h(@v){
+	height: @v;
+}
+.lh(@v){
+	line-height: @v;
+}
+.w(@v){
+	width: @v;
+}
+.f(@v){
+	float: @v;
+}
+.c(@v){
+	background-color: @v;
+}
+.d(){
+	display: inline-block;
+}
+
+// =================================================coupon_head===============================
+#coupon_head{
+	.w(100%);
+	.h(0.54rem);
+	.c(#f9fafd);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	font-size: 0.16rem;
+	border-bottom: 1px solid #e0e0e0;
+	p{
+		.w(95%);
+		.h(0.54rem);
+		.lh(0.54rem);
+		text-align: center;
+		margin: 0 auto;
+		white-space: nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		position: relative;
+		img{
+			.d();
+			.w(6.5%);
+			vertical-align: middle;
+			margin: 0.15rem 0 0 0;
+			position: absolute;
+			left: 0;
+
+		}
+		span{
+			.f(right);
+			color: #777777;
+			position: absolute;
+			right: 0;
+		}
+	}
+}
+// ========================================coupon_nav======================
+#coupon_nav{
+	.h(0.5rem);
+	.lh(0.5rem);
+	.c(#fff);
+	margin: 0.54rem 0 0 0;
+	border-bottom: 1px solid #e0e0e0;
+	ul{
+		.w(95%);
+		margin: 0 auto;
+		font-size: 0.14rem;
+		li{
+			margin: 0 4%;
+			.w(25.3%);
+			.h(0.48rem);
+			.lh(0.48rem);
+			.f(left);
+			text-align: center;
+			border-bottom: 2px solid #ff3800;
+		}
+	}
+}
+// ------------------------------------------coupon_bound-----------------------------
+#coupon_bound{
+	.w(100%);
+	.h(0.55rem);
+	.lh(0.55rem);
+	.c(#fff);
+	form{
+		.w(90%);
+		margin: 0 auto;
+		font-size: 0;
+		input{
+			.h(0.36rem);
+			font-size: 0.16rem;
+			margin: 0.1rem 0 0 0 ;
+			box-sizing: border-box;
+			outline: none;
+			&:first-of-type{
+				.w(78%);
+				color: #A9A9A9;
+				border:1px solid #E0E0E0;
+				border-radius: 6px 0 0 6px;
+				border-right: none;
+				text-indent: 0.1rem;
+			}
+			&:last-of-type{
+				.w(22%);
+				.c(#FFD600);
+				border:1px solid #E0E0E0;
+				border-radius: 0 6px 6px 0;
+				font-size: 0.14rem;
+				font-weight: bold;
+				border-left: none;
+			}
+		}
+	}
+	
+}
+// -------------------------------------------coupon_null-----------------------------
+#coupon_null{
+	.w(100%);
+	margin: 0.8rem 0 0 0;
+	figure{
+		.w(60%);
+		margin: 0 auto;
+		text-align: center;
+		img{
+			.w(42%);
+			margin: 0 auto;
+		}
+		p{
+			.h(0.3rem);
+			.lh(0.3rem);
+			margin: 0.13rem 0 ;
+			color: #999999;
+			span{
+				.d();
+				.h(0.28rem);
+				.lh(0.28rem);
+				.w(50%);
+				border: 1px solid #e0e0e0;
+			}
+		}
+	}
+	>p{
+		.h(0.36rem);
+		.lh(.36rem);
+		.w(100%);
+		color: #999999;
+		text-align: center;
+		span{
+			.d();
+			.w(45%);
+			.h(0.3rem);
+			.lh(0.3rem);
+			border:1px solid #E0E0E0;
+			border-radius: 5px;
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+

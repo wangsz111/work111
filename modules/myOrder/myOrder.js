@@ -1,0 +1,11 @@
+define(["text!./myOrder.html","css!./myOrder.css"],function(myOrderPage){
+	return{
+		init:function(){
+			if($(".myOrder").children().size()>0){
+				$(".myOrder").show().siblings('div').hide().parent().siblings("#index_footer").hide();
+			}else{
+				$(".myOrder").html(myOrderPage).show().siblings("div").hide().parent().siblings("#index_footer").hide();
+			}
+		}
+	}
+});
