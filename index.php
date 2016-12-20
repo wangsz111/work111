@@ -5,7 +5,6 @@ $jssdk = new JSSDK("wx247a33dc22b259f3", "67e7277b556b6632e5ee39a5950e90cb");
 $signPackage = $jssdk->GetSignPackage();
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
