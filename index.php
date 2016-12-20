@@ -101,8 +101,8 @@ $signPackage = $jssdk->GetSignPackage();
 		<div class="myOrder"></div>
 		<div class="integral"></div>
 		<div class="coupon"></div>
-		<input type="button" id="btn1" onclick = "getLocation()" >
-		<input type="button" id="btn2" onclick="openLocation()">
+		<input type="button" id="btn1" onclick = "getLocation()" value="按钮1">
+		<input type="button" id="btn2" onclick="openLocation()" value="按钮2">
 	</div>
 	<div id="index_footer">
 		<figure>
