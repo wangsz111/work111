@@ -8,7 +8,7 @@ define(["text!./home.html","css!./home.css","css!./swiper.min.css","baidu","swip
 	
 				// 轮播图
 				$("#index_banner").load("modules/templete/lbt.html",function(){
-					$.ajax("../../json/homeData.json",{
+					$.ajax("modules/json/homeData.json",{
 						success:function(data,textStatus,jqXHR){
 							// ajax获取 轮播图图片
 							var lbt_data = baidu.template("lbt",data);
@@ -25,7 +25,7 @@ define(["text!./home.html","css!./home.css","css!./swiper.min.css","baidu","swip
 
 
 				$("#index_nav1").load("modules/templete/index_nav.html",function(){
-					$.ajax("../../json/homeData.json",{
+					$.ajax("modules/json/homeData.json",{
 						success:function(data,textStatus,jqXHR){
 							//轮播图下方菜单
 							var index_nav_data = baidu.template("index_nav",data);
@@ -35,7 +35,7 @@ define(["text!./home.html","css!./home.css","css!./swiper.min.css","baidu","swip
 				});
 
 				$("#allDiv").load("modules/templete/allDiv.html",function(){
-					$.ajax("../../json/homeData.json",{
+					$.ajax("modules/json/homeData.json",{
 						success:function(data,textStatus,jqXHR){
 							//下方数据
 							var allDiv_data = baidu.template("allDiv1",data);
