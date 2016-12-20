@@ -8,7 +8,7 @@ define(["text!./supermarket.html","css!./supermarket.css","baidu"],function(supe
 
 				//ajax获取左边菜单数据
 				$("#supermarket_nav_ul").load("modules/templete/supermarket1.html",function(){
-					$.ajax("../json/getCategoryProducts.json",{
+					$.ajax("modules/json/getCategoryProducts.json",{
 						success:function(data,textStatus,jqXHR){
 							var supermarket_data = baidu.template("supermarket1",data);
 							$("#supermarket_nav_ul").html(supermarket_data);
@@ -17,7 +17,7 @@ define(["text!./supermarket.html","css!./supermarket.css","baidu"],function(supe
 				});
 				//ajax获取右边菜单数据
 				$("#supermarket_nav_div_div").load("modules/templete/supermarket2.html",function(){
-					$.ajax("../json/getCategoryProducts.json",{
+					$.ajax("modules/json/getCategoryProducts.json",{
 						success:function(data,textStatus,jqXHR){
 							var data1 = data.data.products["104749"];
 							var supermarket_data = baidu.template("supermarket2",{data:data1});
@@ -27,7 +27,7 @@ define(["text!./supermarket.html","css!./supermarket.css","baidu"],function(supe
 				});
 				//ajax获取右边菜单上方排序数据
 					$("#supermarket_nav_div_ul").load("modules/templete/supermarket3.html",function(){
-						$.ajax("../json/getCategoryProducts.json",{
+						$.ajax("modules/json/getCategoryProducts.json",{
 							success:function(data,textStatus,jqXHR){
 								var data1 = data.data.categories[0];
 								var supermarket_data = baidu.template("supermarket3",{data:data1});
@@ -44,7 +44,7 @@ define(["text!./supermarket.html","css!./supermarket.css","baidu"],function(supe
 						ind = $(this).index();
 					//重新获取右侧数据
 					$("#supermarket_nav_div_div").load("modules/templete/supermarket2.html",function(){
-						$.ajax("../json/getCategoryProducts.json",{
+						$.ajax("modules/json/getCategoryProducts.json",{
 							success:function(data,textStatus,jqXHR){
 								var data1 = data.data.products[id];
 								var supermarket_data = baidu.template("supermarket2",{data:data1});
@@ -54,7 +54,7 @@ define(["text!./supermarket.html","css!./supermarket.css","baidu"],function(supe
 					});
 					//ajax获取右边菜单上方排序数据
 					$("#supermarket_nav_div_ul").load("modules/templete/supermarket3.html",function(){
-						$.ajax("../json/getCategoryProducts.json",{
+						$.ajax("modules/json/getCategoryProducts.json",{
 							success:function(data,textStatus,jqXHR){
 								var data1 = data.data.categories[ind];
 								var supermarket_data = baidu.template("supermarket3",{data:data1});
