@@ -9,6 +9,7 @@ $signPackage = $jssdk->GetSignPackage();
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<script type="text/javascript" src ="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<script type="text/javascript">
 		  wx.config({
 		    debug: true,
@@ -62,7 +63,7 @@ $signPackage = $jssdk->GetSignPackage();
 		    }
 		});
 	</script>
-	<script type="text/javascript" src ="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title></title>
 	<script type="text/javascript" src="js/device_width.js"></script>
