@@ -80,10 +80,6 @@ $signPackage = $jssdk->GetSignPackage();
 			    infoUrl: '' // 在查看位置界面底部显示的超链接,可点击跳转
 			});
 		}
-		
-		document.getElementById("btn1").onclick=function(){
-			getLocation();
-		}
 	</script>
 	
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
@@ -105,8 +101,8 @@ $signPackage = $jssdk->GetSignPackage();
 		<div class="myOrder"></div>
 		<div class="integral"></div>
 		<div class="coupon"></div>
-		<input type="button" id="btn1">
-		<input type="button" id="btn2">
+		<input type="button" id="btn1" onclick = "getLocation()" >
+		<input type="button" id="btn2" onclick="openLocation()">
 	</div>
 	<div id="index_footer">
 		<figure>
